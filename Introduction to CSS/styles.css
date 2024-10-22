@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+body {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    font-family: "Arima", serif;
+}
+
+h1 {
+    color: rgb(180, 46, 46);
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+}
+
+form, a {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

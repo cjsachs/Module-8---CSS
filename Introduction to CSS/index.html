@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>HTML Forms</title>
+</head>
+<body class="body" id="body">
+    <h1>Learning HTML Forms</h1>
+    <form action="" method="POST">
+        <label for="username">Enter Username:</label>
+        <input type="text" id="username">
+        <br>
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password" required>
+        <br>
+        <label for="">Enter Email: </label>
+        <input type="email" name="email">
+        <br>
+        <label for="age">Enter Age: </label>
+        <input type="number" id="age" min="1" max="100">
+        <br>
+        <label for="dob">Enter DOB: </label>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br>
+        <input type="checkbox" name="checked"> Verify everything is correct
+        <br>
+        <select name="location" id="location">
+            <option value="united states">United States</option>
+            <option value="canada">Canada</option>
+        </select>
+        <br>
+        <button style="background-color: darkorange;">Submit</button>
+    </form>
+    <a href="#">Need assistance? Contact us!</a>
+</body>
+</html>
