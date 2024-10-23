@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+* {
+    font-family: "Arima", serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(180, 46, 46);
+    text-align: center;
+    background-color: aqua;
+    padding: 20px 10px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+}
+
+form, a {
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: pink;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button:hover {
+    background-color: rgb(255, 222, 227);
+}
+
+.content-box {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    box-sizing: content-box;
+    width: 200px;
+    background-color: red;
+    padding: 20px;
+    border: 5px solid yellow;
+    margin: 10px;
+}
+
+.border-box {
+    position: absolute;
+    right: 0px;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: yellow;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 10px;
+}
+
+.center-me {
+    display: block;
+    margin: 0 auto;
+}
