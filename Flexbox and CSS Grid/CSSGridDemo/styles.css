@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f953c6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.grid {
+    border: 3px solid yellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.box {
+    border: 3px solid black;
+}

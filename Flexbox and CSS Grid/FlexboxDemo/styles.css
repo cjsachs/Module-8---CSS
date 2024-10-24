@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.334);
+    border: 1px solid rgba(255, 255, 255, 0.155);
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+    margin: 10px;
+    color: rgb(232, 164, 7);
+    transition: .3s;
+}
+
+li:hover {
+    color: rgb(151, 119, 45);
+    transform: scale(1.1);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
